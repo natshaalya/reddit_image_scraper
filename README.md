@@ -16,13 +16,14 @@ A Python script that scrapes image posts from a chosen subreddit using the Reddi
 - requests (if downloading images)
 
 ## Installation
-Clone this repository:
+**1️⃣ Clone the repository**
 ```bash
 git clone https://github.com/natshaalya/reddit_image_scraper.git
 cd reddit_image_scraper
 Install dependencies:
 
-Copy code
+## install
+## 2️⃣ Install dependencies
 pip install praw python-dotenv requests
 Create a .env file in the root folder with your Reddit API credentials:
 
