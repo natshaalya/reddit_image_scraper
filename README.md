@@ -22,41 +22,27 @@ git clone https://github.com/natshaalya/reddit_image_scraper.git
 cd reddit_image_scraper
 Install dependencies:
 
-## install
-## 2️⃣ Install dependencies
+2️⃣ Install dependencies
 pip install praw python-dotenv requests
-Create a .env file in the root folder with your Reddit API credentials:
 
-
-Copy code
+3️⃣ Create a .env file in the project root folder with your Reddit API credentials:
 REDDIT_CLIENT_ID=your_client_id
 REDDIT_CLIENT_SECRET=your_client_secret
+
 Usage
 1. Run the scraper
-bash
-Copy code
 python assessment.py
 Metadata saved to iphone_images.json
-
 Images downloaded to downloads/ (ignored in GitHub)
 
 2. View results in HTML
 Make sure index.html and iphone_images.json are in the same folder.
-
 Start a local server:
-
-Copy code
 python -m http.server 8000
-Open your browser at http://localhost:8000/index.html
+Open your browser at (http://localhost:8000/index.html)
 The page will show the post title and image from the JSON file.
 
-Notes
-.gitignore ensures .env and downloads/ folder are not uploaded.
 
-You can manually include a few sample images if you want to preview them on GitHub.
-
-yaml
-Copy code
 
 
 
